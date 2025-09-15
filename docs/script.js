@@ -2,25 +2,25 @@ const conteudo_hero = [{
                         'span': 'EMPRÉSTIMO CONSIGNADO',
                         'h1':'Realize seus <span>sonhos</span> com a <span>AGE GOLD</span>!',
                         'p':'Trabalhamos para ajudar pessoas como você a ter uma vida melhor a partir do crédito consignado.',
-                        'img':'/static/imagens/senhora.png'
+                        'img':'static/imagens/senhora.png'
                     },
                     {
                         'span': 'FGTS',
                         'h1': 'Antecipação do <span>FGTS</span>',
                         'p': 'Experimente condições imperdíveis com nossas opções de crédito pessoal. Alcance sua tranquilidade, viaje e coloque suas finanças de volta nos trilhos.',
-                        'img': '/static/imagens/familiafgts.png'
+                        'img': 'static/imagens/familiafgts.png'
                     },
                     {
                         'span':'PORTABILIDADE DE DÍVIDA',
                         'h1': 'As menores taxas com a <span>portabilidade</span>',
                         'p': 'Oferecemos soluções financeiras de refinanciamento e portabilidade de  dívidas para que você possa aliviar suas preocupações financeiras e dormir tranquilo.',
-                        'img': '/static/imagens/mulher-de-amarelo.png'
+                        'img': 'static/imagens/mulher-de-amarelo.png'
                     },
                     {
                         'span':'CONSÓRCIO',
                         'h1': 'Seu <span>consórcio</span> com a <span>AGE GOLD</span>.',
                         'p': 'Obtenha seu mais novo automóvel com qualidade, segurança e parcelas que cabem no seu bolso.',
-                        'img': '/static/imagens/consorcio.png'
+                        'img': 'static/imagens/consorcio.png'
                     }
 ]
 

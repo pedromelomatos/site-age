@@ -203,7 +203,7 @@ footer p {
 }
 
 .about-hero {
-    background-image: url('/static/imagens/quemsomosbg.png');
+    background-image: url('/docs/static/imagens/quemsomosbg.png');
     background-size: cover;
     background-position: -20px -100px;
     background-attachment: fixed; 
@@ -340,7 +340,7 @@ footer p {
 /* Estilos para a página de Serviços */
 
 .services-hero {
-    background-image: url('/static/imagens/servicosbg.png'); 
+    background-image: url('/docs/static/imagens/servicosbg.png'); 
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -453,7 +453,7 @@ footer p {
 /* Estilos para a página de Simulação */
 
 .simulation-hero {
-    background-image: url('/static/imagens/simulacaobg.png'); 
+    background-image: url('/docs/static/imagens/simulacaobg.png'); 
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -609,7 +609,7 @@ footer p {
 /* Estilos para a página de Contato */
 
 .contact-hero {
-    background-image: url('/static/imagens/contatobg.png');
+    background-image: url('/docs/static/imagens/contatobg.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
