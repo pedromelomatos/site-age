@@ -203,7 +203,7 @@ footer p {
 }
 
 .about-hero {
-    background-image: url('../static/imagens/quemsomosbg.png');
+    background-image: url('../imagens/quemsomosbg.png');
     background-size: cover;
     background-position: -20px -100px;
     background-attachment: fixed; 
