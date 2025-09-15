@@ -1,3 +1,4 @@
+/* Estilos Padrão (Desktop) */
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
@@ -5,7 +6,6 @@ body {
     background-color: #f0f0f0;
     color: #333;
 }
-
 
 .container {
     max-width: 1200px;
@@ -59,13 +59,11 @@ header {
     display: flex;
     position: relative;
     align-items: center;
-    position: relative;
     padding-left: 200px;
 }
 
 .hero-content {
     flex: 1;
-    padding-right: 20px;
     padding: 60px 0;
     height: 400px;
     min-height: 400px;
@@ -104,7 +102,6 @@ header {
 }
 
 .btn-primary {
-    background: #D1A521;
     background: linear-gradient(90deg, rgba(209, 165, 33, 1) 0%, rgba(74, 47, 13, 1) 100%);
     color: white;
     font-family: "Montserrat", sans-serif;
@@ -119,8 +116,6 @@ header {
 .hero-image {
     flex: 2;
     display: flex;
-    
-
 }
 
 .hero-image img {
@@ -194,10 +189,7 @@ footer p {
     height: 80px;
 }
 
-
-
 /* Estilos "Quem Somos" */
-
 .about-us {
     background-color: #ffffff;
 }
@@ -206,9 +198,9 @@ footer p {
     background-image: url('../imagens/quemsomosbg.png');
     background-size: cover;
     background-position: -20px -100px;
-    background-attachment: fixed; 
+    background-attachment: fixed;
     padding: 131.3px 0;
-    padding-left:200px;
+    padding-left: 200px;
     position: relative;
 }
 
@@ -231,14 +223,12 @@ footer p {
 .about-hero h1 {
     font-size: 48px;
     font-weight: 800;
-
     margin-bottom: 10px;
 }
 
 .about-hero p {
     font-size: 20px;
     font-weight: 500;
-
     width: 50%;
     line-height: 1.5;
 }
@@ -265,10 +255,9 @@ footer p {
     margin-bottom: 20px;
 }
 
-.who-we-are-text h2 span{
+.who-we-are-text h2 span {
     font-weight: 800;
 }
-
 
 .who-we-are-text p {
     line-height: 1.6;
@@ -278,7 +267,8 @@ footer p {
     font-weight: 700;
     text-align: justify;
 }
-.who-we-are-text p span{
+
+.who-we-are-text p span {
     color: #78663a;
 }
 
@@ -338,9 +328,8 @@ footer p {
 }
 
 /* Estilos para a página de Serviços */
-
 .services-hero {
-    background-image: url('../imagens/servicosbg.png'); 
+    background-image: url('../imagens/servicosbg.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -442,7 +431,7 @@ footer p {
 }
 
 .service-content li::before {
-    content: '\2713'; 
+    content: '\2713';
     color: #78663a;
     font-weight: bold;
     display: inline-block;
@@ -451,9 +440,8 @@ footer p {
 }
 
 /* Estilos para a página de Simulação */
-
 .simulation-hero {
-    background-image: url('../imagens/simulacaobg.png'); 
+    background-image: url('../imagens/simulacaobg.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -461,8 +449,6 @@ footer p {
     padding-left: 200px;
     position: relative;
     color: #fff;
-    padding: 131.3px 0;
-    padding-left: 200px;
 }
 
 .simulation-hero h1 {
@@ -507,7 +493,7 @@ footer p {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image:  linear-gradient(90deg, rgba(23, 18, 11, 1) 0%, rgba(107, 83, 50, 1) 35%, rgba(181, 165, 111, 1) 100%); 
+    background-image: linear-gradient(90deg, rgba(23, 18, 11, 1) 0%, rgba(107, 83, 50, 1) 35%, rgba(181, 165, 111, 1) 100%);
     color: #fff;
 }
 
@@ -607,7 +593,6 @@ footer p {
 }
 
 /* Estilos para a página de Contato */
-
 .contact-hero {
     background-image: url('../imagens/contatobg.png');
     background-size: cover;
@@ -756,4 +741,186 @@ footer p {
 
 .social-media a:hover {
     color: #D1A521;
+}
+
+/* Media Queries */
+
+@media (max-width: 992px) {
+    .container {
+        padding: 0 15px;
+    }
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding-left: 0;
+        padding-bottom: 20px;
+    }
+    .hero-content {
+        height: auto;
+        min-height: auto;
+        padding: 40px 20px 20px;
+    }
+    .hero-content h1 {
+        font-size: 36px;
+    }
+    .hero-image {
+        flex: auto;
+        width: 100%;
+        max-width: 500px; 
+    }
+    .hero-image img {
+        width: 100%;
+        max-width: 100%;
+    }
+    .feature-grid {
+        grid-template-columns: 1fr;
+    }
+    .feature-description {
+        width: 90%;
+    }
+
+    /* Quem Somos */
+    .about-hero {
+        padding: 80px 20px;
+        padding-left: 20px;
+    }
+    .about-hero p {
+        width: 80%;
+    }
+    .who-we-are {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* Serviços */
+    .services-hero {
+        padding: 80px 20px;
+        padding-left: 20px;
+    }
+    .services-hero p {
+        width: 80%;
+    }
+    .service-item, .service-item.reverse {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .service-content {
+        padding: 20px;
+    }
+
+    /* Simulação */
+    .simulation-form .container {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .form-inputs {
+        grid-template-columns: 1fr;
+    }
+    .result-card {
+        padding: 20px;
+    }
+
+    /* Contato */
+    .contact-content {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .contact-hero {
+        padding: 80px 20px;
+        padding-left: 20px;
+    }
+    .contact-hero p {
+        width: 80%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        width: 100%;
+    }
+    .hero-content, .simulation-hero{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex: 3;
+        width: 100%;
+        text-align: center;
+        padding: 40px 10px;
+
+
+    }
+    .hero-content h1 {
+        font-size: 28px;
+    }
+    .hero-content p {
+        font-size: 16px;
+    }
+    .hero-buttons {
+        align-items: center;
+        flex-direction: column;
+    }
+    .hero-image{
+        display: none;
+        flex:0;
+    }
+    #img-hero{
+        display:none;
+        flex:0;
+    }
+    .btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Quem Somos */
+    .about-hero h1 {
+        font-size: 36px;
+    }
+    .about-hero p {
+        width: 100%;
+        font-size: 18px;
+    }
+    .who-we-are-text h2 {
+        font-size: 28px;
+    }
+
+    /* Serviços */
+    .services-hero h1 {
+        font-size: 36px;
+    }
+    .services-hero p {
+        width: 100%;
+        font-size: 18px;
+    }
+    .service-content h2 {
+        font-size: 24px;
+    }
+
+    /* Simulação */
+    .simulation-hero h1 {
+        font-size: 36px;
+    }
+    .simulation-hero p {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    /* Contato */
+    .contact-hero h1 {
+        font-size: 36px;
+    }
+    .contact-hero p {
+        width: 100%;
+        font-size: 18px;
+    }
 }
